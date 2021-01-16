@@ -1,0 +1,138 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	background: #fdf4be url(imagens/bg.png);
+}
+
+#principal {
+	max-width: 1180px;
+	min-width: 750px;
+	border: 1px solid #f4f4f4;
+	margin: 0 auto;
+	background: url(imagens/bg-container.png) top center repeat-y;
+}
+
+#topo-menu {
+	position: relative;
+}
+
+#topo-esquerdo {
+	width: 100%;
+	height: 250px;
+	background: url(imagens/topo-imagem-principal.png) no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#topo-direito {
+	width: 450px;
+	height: 250px;
+	background: url(imagens/topo-imagem-lateral.png) no-repeat;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#logo a {
+	margin: 15px;
+	background: url(imagens/logo.png) no-repeat;
+	width: 155px;
+	height: 80px;
+	display: block;
+	text-indent: -9044px;
+}
+
+#conteudo-menu {
+	margin-left: 88px;
+}
+
+#cidade {
+	border-top: 1px solid #a29750;
+	border-bottom: 1px solid #a29750;
+	padding: 5px;
+	margin-top: 15px;
+	margin-right: 10px;
+	font-size: 0.8em;
+	color: #a29750;
+}
+
+.reserva  {
+	color: #dfd393;
+	background: #a29750;
+	padding: 3px 8px;
+	margin-left: 12px;
+}
+
+ul {
+	list-style: none;
+	margin-top: 10px;
+	float: left;
+}
+
+ul a {
+	color: #a29750;
+	line-height: 2em;
+	padding: 5px 8px;
+}
+
+ul a:hover {
+	background: #a29750;
+	color: #dfd393;
+}
+
+
+#conteudo-site{
+	width: 100%;
+	margin-top: 260px;
+}
+.conteudo-direita {
+	width: 48%;
+	float: left;
+	margin: 0 auto;
+	padding: 15px;
+}
+.conteudo-esquerda {
+	width: 48%;
+	float: right;
+	margin: 0 auto;
+}
+.listagem {
+	height: 7em;
+}
+.listagem img {
+	float: left;
+	margin: 2px 5px;
+}
+
+ul .listagem:hover {
+	background: #fdf4be;
+	cursor: pointer;
+}
+
+h2 {
+	color: #a29750;
+	font-size: 1.4em;
+	padding: 10px 5px;
+}
+
+p {
+	margin-top: 10px;
+	font-size: 0.9em;
+}
+
+a {
+	text-decoration: none;
+}
+
+#rodape {
+	background: #F2F2F2;
+	height: 30px;
+	padding: 15px 5px;
+	color: #826743;
+	float: both;
+}
